@@ -23,11 +23,13 @@ body {
   background-repeat: no-repeat; /* prevent repeating the image */
 }
 
-  .header h1 {
-    font-size: 40px;
-  }
+.header h1 {
+  font-size: 40px;
+}
 
-
+/*Elementos Semanticos
+Grids y Flex
+IDs y classes*/
 
 /* Style the top navigation bar */
 .navbar {
@@ -52,9 +54,9 @@ body {
 }
 
 /* Right-aligned link */
-/*.navbar a.right {
-  float: right; /* Float a link to the right 
-}*/
+.navbar a.right {
+  float: right; /* Float a link to the right */
+}
 
 /* Change color on hover/mouse-over */
 .navbar a:hover {
