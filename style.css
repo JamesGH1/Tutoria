@@ -1,0 +1,123 @@
+
+body {
+  background-color: #000000; /* Set the background to black */
+}
+
+.container {
+  width: 100%; /* Full width */
+  max-width: 1280px; /* Maximum width of the content - adjust as needed */
+  justify-content: space-between; /* This will create space between the text and the image */
+  margin: 0 auto; /* Center the container */
+  overflow: hidden; /* Optional: to make sure no horizontal scrollbars appear */
+  background-color: #3d3d3d; /* Set the background of the container to white (or any color you prefer) */
+}
+
+.header {
+  padding: 90px; /* existing styling */
+  text-align: center; /* existing styling */
+  background: #000000; /* existing styling */
+  color: rgb(255, 255, 255); /* existing styling */
+  background-image: url('images/Hedge_Corp_Header.jpg'); /* add this line, adjust path as needed */
+  background-size: cover; /* ensure it covers the header area */
+  background-position: center; /* center the image */
+  background-repeat: no-repeat; /* prevent repeating the image */
+}
+
+  .header h1 {
+    font-size: 40px;
+  }
+
+
+
+/* Style the top navigation bar */
+.navbar {
+  overflow: hidden; /* Hide overflow */
+  background-color: #262626; /* Dark background color */
+}
+
+/* Style the navigation bar links */
+.navbar a {
+  float:left ; /* Make sure that the links stay side-by-side */
+  display: block; /* Change the display to block, for responsive reasons (see below) */
+  color: rgb(140, 207, 144); /* White text color */
+  text-align: center; /* Center the text */
+  padding: 14px 20px; /* Add some padding */
+  text-decoration: none; /* Remove underline */
+  
+}
+
+.navbar img {
+  height: 45px;
+  float:right;
+}
+
+/* Right-aligned link */
+/*.navbar a.right {
+  float: right; /* Float a link to the right 
+}*/
+
+/* Change color on hover/mouse-over */
+.navbar a:hover {
+  background-color: #305638; /* Grey background color */
+  color: rgb(255, 255, 255); /* Black text color */
+}
+
+
+
+.content {
+    padding-top: 50px;
+  display: flex; /* Use flexbox layout */
+  align-items: flex-start; /* Align items from the start of the flex direction */
+  justify-content: space-between; /* Add space between the text and image */
+}
+
+.standard_p {
+  color: #FFFFFF;
+  flex: 1; /* Takes up the remaining space */
+  margin-right: 20px; /* Adds some margin between the paragraph and the image */
+}
+.content_left {
+  padding-left: 8%; /* This adds space from the left border */
+  max-width: 45%; /* This limits the paragraph to the left half of the page */
+  padding-right: 5%;
+}
+
+.image_right {
+  width: 70%; /* Set the width of the image to half of its container */
+  max-width: 500px; /* You can adjust this to make the image smaller or larger */
+  max-height: auto; /* Scale the height automatically based on the width */
+  object-fit: cover; /* This will make sure that the image covers the area without losing its aspect ratio */
+  padding-right: 8%;
+}
+
+.contact_info_text {
+  color: #FFFFFF;
+}
+
+.contact_info_padding_1 {
+  padding-top: 50px;
+}
+
+.contact_info_padding_2 {
+  padding-top: 10px;
+}
+
+
+.form-container {
+  text-align: center;
+  margin: auto;
+  width: 50%;
+  padding: 10px;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+input[type="date"] {
+  margin-bottom: 10px;
+  width: 200px;
+}
+
+.submit-button {
+  margin-top: 20px;
+}
