@@ -123,3 +123,8 @@ input[type="date"] {
 .submit-button {
   margin-top: 20px;
 }
+
+
+.next {
+  color: #000000;
+}
