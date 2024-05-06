@@ -1,4 +1,3 @@
-
 body {
   background-color: #000000; /* Set the background to black */
 }
@@ -17,7 +16,7 @@ body {
   text-align: center; /* existing styling */
   background: #000000; /* existing styling */
   color: rgb(255, 255, 255); /* existing styling */
-  background-image: url('images/Hedge_Corp_Header.jpg'); /* add this line, adjust path as needed */
+  background-image: url("images/Hedge_Corp_Header.jpg"); /* add this line, adjust path as needed */
   background-size: cover; /* ensure it covers the header area */
   background-position: center; /* center the image */
   background-repeat: no-repeat; /* prevent repeating the image */
@@ -39,18 +38,17 @@ IDs y classes*/
 
 /* Style the navigation bar links */
 .navbar a {
-  float:left ; /* Make sure that the links stay side-by-side */
+  float: left; /* Make sure that the links stay side-by-side */
   display: block; /* Change the display to block, for responsive reasons (see below) */
   color: rgb(140, 207, 144); /* White text color */
   text-align: center; /* Center the text */
   padding: 14px 20px; /* Add some padding */
   text-decoration: none; /* Remove underline */
-  
 }
 
 .navbar img {
   height: 45px;
-  float:right;
+  float: right;
 }
 
 /* Right-aligned link */
@@ -64,17 +62,15 @@ IDs y classes*/
   color: rgb(255, 255, 255); /* Black text color */
 }
 
-
-
 .content {
-    padding-top: 50px;
+  padding-top: 50px;
   display: flex; /* Use flexbox layout */
   align-items: flex-start; /* Align items from the start of the flex direction */
   justify-content: space-between; /* Add space between the text and image */
 }
 
 .standard_p {
-  color: #FFFFFF;
+  color: #ffffff;
   flex: 1; /* Takes up the remaining space */
   margin-right: 20px; /* Adds some margin between the paragraph and the image */
 }
@@ -93,7 +89,7 @@ IDs y classes*/
 }
 
 .contact_info_text {
-  color: #FFFFFF;
+  color: #ffffff;
 }
 
 .contact_info_padding_1 {
@@ -103,7 +99,6 @@ IDs y classes*/
 .contact_info_padding_2 {
   padding-top: 10px;
 }
-
 
 .form-container {
   text-align: center;
@@ -124,7 +119,12 @@ input[type="date"] {
   margin-top: 20px;
 }
 
-
 .next {
   color: #000000;
+}
+
+.slideshow_text_parent {
+  display: grid;
+  place-items: center;
+  color: #ffffff;
 }

@@ -1,76 +1,111 @@
 <!DOCTYPE html>
 <html lang="en">
+  <link rel="stylesheet" type="text/css" href="style.css" />
 
-<link rel="stylesheet" type="text/css" href="style.css">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Hedge Corp. Landscaping</title>
-</head>
+  </head>
 
+  <style>
+    body {
+      font-family: "Times New Roman", Times, serif;
+    }
+  </style>
 
-<style>
-body {
-  font-family: 'Times New Roman', Times, serif;
-}
-
-
-
-</style>
-
-
-
-
-
-<body>
-  <div class="container"> 
-    <div class="header">
+  <body>
+    <div class="container">
+      <div class="header">
         <h1>Welcome to Hedge Corp.</h1>
-        <h2> Landscaping like never  before!</h2>
+        <h2>Landscaping like never before!</h2>
       </div>
 
-    <div class="navbar">
+      <div class="navbar">
         <a href="#">Locations</a>
         <a href="#">Services</a>
         <a href="#">Pricing</a>
         <a href="#" class="right">Contact</a>
-        <img src="images/HC_Logo.svg" alt="Hedge Corp Logo">
-     </div>
+        <img src="images/HC_Logo.svg" alt="Hedge Corp Logo" />
+      </div>
 
-    <div class="content">
-      <p class="standard_p content_left">
-        At Hedge Corp. Landscaping, we believe that the outdoors should be not just an extension of your 
-        space but a reflection of your individuality. Our team of skilled landscapers is dedicated to 
-        transforming your garden, lawn, or backyard into a serene oasis that not only captivates the 
-        senses but also becomes a setting for making memories. With our eco-friendly approach and eye 
-        for design, we ensure that each project is both beautiful and sustainable. Whether you're looking 
-        for a tranquil retreat, a vibrant play area, or a sophisticated entertainment space, our bespoke 
-        landscaping services are tailored to meet your unique needs and exceed your expectations. Let us 
-        bring your vision to life with our unparalleled craftsmanship and passion for perfection.
-      </p>
-      <img class="image_right" src="images/Landscaper_stock_1.jpg" alt="Stock Image of Landscaper">
-    </div>
+      <div class="content">
+        <p class="standard_p content_left">
+          At Hedge Corp. Landscaping, we believe that the outdoors should be not
+          just an extension of your space but a reflection of your
+          individuality. Our team of skilled landscapers is dedicated to
+          transforming your garden, lawn, or backyard into a serene oasis that
+          not only captivates the senses but also becomes a setting for making
+          memories. With our eco-friendly approach and eye for design, we ensure
+          that each project is both beautiful and sustainable. Whether you're
+          looking for a tranquil retreat, a vibrant play area, or a
+          sophisticated entertainment space, our bespoke landscaping services
+          are tailored to meet your unique needs and exceed your expectations.
+          Let us bring your vision to life with our unparalleled craftsmanship
+          and passion for perfection.
+        </p>
+        <img
+          class="image_right"
+          src="images/Landscaper_stock_1.jpg"
+          alt="Stock Image of Landscaper"
+        />
+      </div>
 
-    <div style="text-align: center;" class="contact_info_text contact_info_padding_1">
-      <h2>Please enter your contact information:</h2>
-      <form action="/submit-contact-info" method="POST">
-          <input type="text" id="firstName" name="firstName" placeholder="First Name" required><br>
-          <input type="text" id="lastName" name="lastName" placeholder="Last Name" required><br>
-          <input type="date" id="birthDate" name="birthDate" required><br>
-          <input type="email" id="email" name="email" placeholder="Email" required><br>
-          <input type="tel" id="phone" name="phone" placeholder="Phone Number" pattern="[0-9]{10}" required> <br>
+      <div
+        style="text-align: center"
+        class="contact_info_text contact_info_padding_1"
+      >
+        <h2>Please enter your contact information:</h2>
+        <form action="/submit-contact-info" method="POST">
+          <input
+            type="text"
+            id="firstName"
+            name="firstName"
+            placeholder="First Name"
+            required
+          /><br />
+          <input
+            type="text"
+            id="lastName"
+            name="lastName"
+            placeholder="Last Name"
+            required
+          /><br />
+          <input type="date" id="birthDate" name="birthDate" required /><br />
+          <input
+            type="email"
+            id="email"
+            name="email"
+            placeholder="Email"
+            required
+          /><br />
+          <input
+            type="tel"
+            id="phone"
+            name="phone"
+            placeholder="Phone Number"
+            pattern="[0-9]{10}"
+            required
+          />
+          <br />
           <button type="submit" class="submit-button">Submit</button>
-      </form>
+        </form>
+      </div>
+
+      <div class="slider">
+        <div class="slides">
+          <img class="slide" src="pic1_slider.jpg" alt="Image #1">
+          <img class="slide" src="pic2_slider.jpg" alt="Image #1">
+          <img class="slide" src="pic3_slider.jpg" alt="Image #1">
+          <img class="slide" src="pic4_slider.jpg" alt="Image #1">
+        </div>
+        <button> class="prev" onclick="prevSlide()">&#10094</button>
+        <button>&#10095</button>
+      </div>
+
+      <div>
+        <p class="slideshow_text_parent">Our Past Projects</p>
+      </div>
     </div>
-  
-  </div>
-</body>
-
-
-
-
-
-
+  </body>
 </html>
-
